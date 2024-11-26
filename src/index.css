@@ -1,0 +1,70 @@
+/*
+    Note: This app is not heavily dependent to the css that's only maintain a single css file.
+*/
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: white;
+  min-height: 100vh;
+  color: #2c2c2c;
+}
+.w3-bar {
+  margin-bottom: 20px;
+}
+
+/* LandingPage Component styles */
+.bgimg {
+  /* background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg'); */
+  background-color: white;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+/* this is for the landin page center grey border box */
+.w3-display-middle {
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.w3-jumbo {
+  color: #2c2c2c; /* Dark Gray for Main Heading */
+}
+
+.w3-large {
+  color: #6c757d; /* Medium Gray for Subtext */
+}
+
+a {
+  color: #007bff; /* Blue for Links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff5722; /* Teal on Hover */
+}
+
+button {
+  background-color:  #ffffff /* Blue Buttons */
+  color: #ffffff; /* White Text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff5722; /* Orange for Hover Effect */
+}
+
+/* CenterToScreen Component styles */
+.center-to-screen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

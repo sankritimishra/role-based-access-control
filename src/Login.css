@@ -1,0 +1,10 @@
+/* Login.css */
+/* In JumbotronWrapper.css or equivalent */
+/* Login.css */
+.custom-jumbotron {
+  background-color: #ffffff !important; /* White background */
+  border: 2px solid #d3d3d3; /* Grey border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding inside */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
